@@ -1,0 +1,11 @@
+.form-control {
+    border-radius: 0 !important;
+}
+
+.btn-none-radius{
+    border-radius: 0 !important;
+}
+
+.border-black{
+    border-color: #777 !important;
+}

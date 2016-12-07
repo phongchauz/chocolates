@@ -1,0 +1,26 @@
+.text-default{
+    color: black !important;
+}
+.text-danger{
+    color: #F12510 !important;
+}
+.btn-smooth{
+    border-radius: 4px !important;
+}
+.btn-act{
+    width: 80px !important;
+}
+.input-search{
+    width: 400px !important;
+}
+@media (max-width: 991px) {
+    .input-search{
+        width: 250px !important;
+    }
+}
+.cbb-search-key{
+    width: 100px !important;
+}
+.pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+.admin-btn-same-with {
+    width: 85px;
+    min-width: 85px;
+}
+
+.admin-cls-action {
+    width: 200px;
+    min-width: 200px;
+    text-align: right !important;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+footer > .navbar-fixed-bottom {
+    left: 250px;
+    border-left: 1px solid #e7e7e7;
+}
+
+.padding-footer {
+    padding-bottom: 100px;
+}
+
+.margin-footer {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.format-view-description{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.ellipsis-text-description{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    max-height: 25px;
+}
+
+.pdr-5{
+    padding-right: 5px !important;
+}
+
+.flag-frame {
+    /*margin-top: 42px;*/
+}
+
+.flag-frame a {
+    text-decoration: none;
+    opacity: 0.4;
+}
+
+.flag-frame a.active {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .flag-frame {
+        margin-top: 0;
+    }
+}
+
+.flag-frame .flag-img {
+    width: 45px;
+    height: 28px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+textarea.resize-none {
+    resize: none;
+}
+
+.file-preview-frame img {
+    max-height: 160px;
+    max-width: 375px;
+}
